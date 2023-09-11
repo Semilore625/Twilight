@@ -25,7 +25,7 @@ function reset() {
   console.log(randomNum);
 }
 
-btnReset.addEventListener("click", reset);
+// btnReset.addEventListener("click", reset);
 
 btnCheck.addEventListener("click", () => {
   if (!guess.value) {
